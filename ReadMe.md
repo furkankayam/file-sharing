@@ -1,4 +1,4 @@
-## 📂 `File Share`
+## 📂 `File Sharing`
 
 <br>
 
