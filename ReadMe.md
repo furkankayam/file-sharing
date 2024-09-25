@@ -47,6 +47,8 @@ git clone https://github.com/furkankayam/file-share.git
 export const API_URL = "http://<ubuntu_server_ip>:8080";
 ```
 
+<br>
+
 ### Usage
 
 ```bash
