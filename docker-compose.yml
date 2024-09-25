@@ -1,0 +1,29 @@
+version: '3.8'
+
+services:
+
+  # Frontend App
+  file-share-frontend:
+    build: ./frontend/.
+    container_name: file-share-frontend
+    ports:
+      - "5173:5173"
+    depends_on:
+      - file-share-backend
+    networks:
+      - my-network
+
+  # Backend App
+  file-share-backend:
+    build: ./backend/.
+    container_name: file-share-backend
+    volumes:
+      - /home/ubuntu/video:/app/videos
+    ports:
+      - "8080:8080"
+    networks:
+      - my-network
+
+networks:
+  my-network:
+    driver: bridge
