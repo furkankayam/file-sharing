@@ -17,6 +17,8 @@ services:
     container_name: file-share-backend
     volumes:
       - /home/ubuntu/video:/app/videos
+    # Windows
+    # c://Users/<username>/videos
     ports:
       - "8080:8080"
     networks:
