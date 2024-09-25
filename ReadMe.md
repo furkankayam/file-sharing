@@ -33,7 +33,7 @@ Used Technologies in The Project:
 ### Installation
 
 ```bash
-git clone https://github.com/furkankayam/file-share.git
+git clone https://github.com/furkankayam/file-sharing.git
 ```
 
 <br>
